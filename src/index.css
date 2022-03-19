@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.top {
+  height: 5px !important;
+}
+
+.top:hover {
+  background: rgb(5, 193, 255);
+}
+
+.right {
+  width: 5px !important;
+}
+
+.right:hover {
+  background: rgb(5, 193, 255);
+}
+
+.bottom {
+  height: 5px !important;
+}
+
+.bottom:hover {
+  background: rgb(5, 193, 255);
+}
+
+.left {
+  width: 5px !important;
+}
+
+.left:hover {
+  background: rgb(5, 193, 255);
+}
+
+.topLeft {
+  width: 15px !important;
+  height: 15px !important;
+  box-sizing: border-box;
+}
+
+.topLeft:hover {
+  border-left: 5px solid rgb(5, 193, 255);
+  border-top: 5px solid rgb(5, 193, 255);
+}
+
+.topRight {
+  width: 15px !important;
+  height: 15px !important;
+  box-sizing: border-box;
+}
+
+.topRight:hover {
+  border-right: 5px solid rgb(5, 193, 255);
+  border-top: 5px solid rgb(5, 193, 255);
+}
+
+.bottomLeft {
+  width: 15px !important;
+  height: 15px !important;
+  box-sizing: border-box;
+}
+
+.bottomLeft:hover {
+  border-left: 5px solid rgb(5, 193, 255);
+  border-bottom: 5px solid rgb(5, 193, 255);
+}
+
+.bottomRight {
+  width: 15px !important;
+  height: 15px !important;
+  box-sizing: border-box;
+}
+
+.bottomRight:hover {
+  border-right: 5px solid rgb(5, 193, 255);
+  border-bottom: 5px solid rgb(5, 193, 255);
+}
